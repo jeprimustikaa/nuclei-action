@@ -72,7 +72,7 @@ runs:
         echo "export GO111MODULE=on" >> ~/.bashrc
         source ~/.bashrc
         cat ~/.bashrc
-        [ ! -x /home/runner/go/bin/nuclei ] && go get -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei@v2.6.0
+        [ ! -x /home/runner/go/bin/nuclei ] && go install -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei@v2.6.0
         echo "/home/runner/go/bin/" >> $GITHUB_PATH
         echo "::endgroup::"
       shell: bash
