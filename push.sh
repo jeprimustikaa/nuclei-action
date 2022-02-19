@@ -1,1 +1,1 @@
-git push https://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@github.com/jeprimustikaa/nuclei-test
+git push https://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@github.com/jeprimustikaa/nuclei-action
